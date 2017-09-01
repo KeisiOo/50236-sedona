@@ -108,7 +108,8 @@ main {
 .reason-item,
 .feature-item {
     width: 400px;
-	padding-top: 30px;
+    padding-top: 30px;
+
     text-align: center;
 }
 
@@ -133,49 +134,89 @@ main {
 }
 
 .request {
-	max-height: 290px;
-	text-align: center;
+    max-height: 290px;
+
+    text-align: center;
 }
 
 .request p {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .request-title {
-	font-size: 30px;
-	line-height: 36px;
-	font-weight: 700;
-	margin: 55px 0;
+    margin: 55px 0;
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .request-btn {
-	width: 570px;
-	font-size: 21px;
-	line-height: 26px;
-	padding: 30px 0;
-	font-family: 'PT Sans', 'Arial', sans-serif;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #fff;
-	background: #766357;
-	border: none;
+    width: 570px;
+    padding: 30px 0;
+
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+
+    border: none;
+    background: #766357;
 }
 
 .request-form {
-	display: none;
+    display: none;
 }
 
 .map {
-	height: 470px;
-	background: url("../img/map.jpg") no-repeat;
+    height: 470px;
+
+    background: url('../img/map.jpg') no-repeat;
 }
 
 footer {
-	max-height: 120px;
-	background: #fff;
+    max-height: 120px;
+
+    background: #fff;
 }
 
 .visitsedona {
-	font-size: 21px;
-	line-height: 26px;
-	font-weight: 700;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.filters {
+    height: 218px;
+
+    color: #fff;
+
+    background: url('../img/bg-hotels.jpg') no-repeat;
+}
+
+.filter {
+    display: flex;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.filter-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+input[type='checkbox'] {
+    position: absolute;
+
+    opacity: 0;
 }
