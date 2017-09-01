@@ -3,40 +3,44 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Седона Главная</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	</head>
 	<body>
 		<header>
 			<div class="container">
-				<nav class="main-nav">
-					<ul class="site-nav">
-						<li class="site-nav-item"><a href="#" class="site-nav-link">Информация</a></li>
-						<li class="site-nav-item"><a href="#" class="site-nav-link">Фото и видео</a></li>
-					</ul>
-					<a class="logo"><img src="img/logo.png" width="138" height="70" alt="logo"></a>
-					<ul class="site-nav">
-						<li class="site-nav-item"><a href="#" class="site-nav-link">Карта штата</a></li>
-						<li class="site-nav-item"><a href="#" class="site-nav-link">Гостиницы</a></li>
-					</ul>
-				</nav>
+				<div class="header-top">
+					<nav class="main-nav">
+						<ul class="site-nav">
+							<li class="site-nav-item"><a href="#" class="site-nav-link">Информация</a></li>
+							<li class="site-nav-item"><a href="#" class="site-nav-link">Фото и видео</a></li>
+						</ul>
+						<a class="logo"><img src="img/logo.png" width="138" height="70" alt="logo"></a>
+						<ul class="site-nav">
+							<li class="site-nav-item"><a href="#" class="site-nav-link">Карта штата</a></li>
+							<li class="site-nav-item"><a href="#" class="site-nav-link">Гостиницы</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</header>
 		<main class="container">
-			<section>
-				<p><b>СЕДОНА — небольшой городок в АРИЗОНЕ,  заслуживающий большего!</b></p>
+			<section class="about-sedona">
+				<h2>СЕДОНА — небольшой городок в АРИЗОНЕ,  заслуживающий большего!</h2>
 				<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 			</section>
 			<section class="reasons">
-				<ul class="reasons-list">
+				<ul class="reasons-list bg-blue">
 					<li class="reason-item">
 						<h2>Настоящий городок</h2>
 						<span class="reason-count">№1</span>
 						<p>Cедона — не аттракцион для туристов, там течет своя жизнь</p>
 					</li>
+					<li class="reason-img-wrap">
+						<img src="img/house.jpg" width="800" height="256" alt="домики">
+					</li>
 				</ul>
-				<div class="reason-img-wrap">
-					<img src="img/house.jpg" width="800" height="400" alt="домики">
-				</div>
 			</section>
 			<section class="features">
 				<ul class="features-list">
@@ -58,10 +62,10 @@
 				</ul>
 			</section>
 			<section class="reasons">
-				<div class="reason-img-wrap">
-					<img src="img/canyon.jpg" width="800" height="400" alt="каньон">
-				</div>
-				<ul class="reasons-list">
+				<ul class="reasons-list bg-blue">
+					<li class="reason-img-wrap">
+						<img src="img/canyon.jpg" width="800" height="256" alt="каньон">
+					</li>
 					<li class="reason-item">
 						<h2>Там есть мост дьявола</h2>
 						<span class="reason-count">№2</span>
@@ -88,7 +92,7 @@
 			</section>
 			<section class="request">
 				<p class="request-title">Заинтересовались?</p>
-				<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+				<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				<button class="request-btn">Поиск гостиницы в седоне</button>
 				<form class="request-form">
 					<p class="request-item">
@@ -108,7 +112,7 @@
 		</main>
 		<footer>
 			<div class="container">
-				<p>#visitsedona</p>
+				<p class="visitsedona">#visitsedona</p>
 				<div class="social">
 					<a class="social-btn social-btn-tw" href="#">Твиттер</a>
 					<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
