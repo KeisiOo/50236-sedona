@@ -27,7 +27,7 @@ h2 {
 
     font-size: 21px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 21px;
 }
 
 a {
@@ -83,7 +83,7 @@ main {
     background: #fff;
 }
 
-.about-sedona {
+.title {
     width: 500px;
     margin: 0;
     margin: 0 auto;
@@ -95,6 +95,15 @@ main {
     text-align: center;
 }
 
+.about-sedona {
+    margin: 0;
+    margin-bottom: 30px;
+
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
 .reasons {
     display: flex;
 
@@ -102,7 +111,7 @@ main {
 }
 
 .reasons-list {
-    height: 256px;
+    min-height: 256px;
     margin: 0;
     padding: 0;
 
@@ -116,13 +125,31 @@ main {
 .reason-item,
 .feature-item {
     width: 400px;
-    padding-top: 30px;
 
     text-align: center;
 }
 
+.reason-item h2 {
+    width: 151px;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.reason-about {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.reason-count {
+    margin-bottom: 20px;
+
+    display: block;
+}
+
 .reason-img-wrap {
     width: 800px;
+    height: 256px;
 }
 
 .reasons-list.bg-blue {
@@ -131,14 +158,29 @@ main {
     background: #81b3d2;
 }
 
+.features {
+    min-height: 330px;
+}
+
 .features-list {
-    height: 330px;
     margin: 0;
     padding: 0;
 
     display: flex;
 
     list-style: none;
+}
+
+.feature-icon {
+    height: 78px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.feature-about {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .request {
@@ -151,7 +193,7 @@ main {
     margin-bottom: 30px;
 }
 .request-title {
-    margin: 55px 0;
+    margin-top: 50px;
 
     font-size: 30px;
     font-weight: 700;
@@ -160,6 +202,7 @@ main {
 
 .request-btn {
     width: 570px;
+    margin-top: 20px;
     padding: 30px 0;
 
     font-family: 'PT Sans', 'Arial', sans-serif;
@@ -206,6 +249,26 @@ footer {
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
+}
+
+.social-btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 46px;
+	height: 48px;
+	margin: 0 2px;
+}
+
+.social-btn-tw {
+	background: #81b3d2 url('../img/twitter.svg') no-repeat center;
+}
+
+.social-btn-fb {
+	background: #81b3d2 url('../img/fb-icon.svg') no-repeat center;
+}
+
+.social-btn-yt {
+	background: #81b3d2 url('../img/youtube.svg') no-repeat center;
 }
 
 .filters {
@@ -490,19 +553,23 @@ input[type='checkbox'] {
 }
 
 .hotel-rating {
-    margin-left: auto;
-    margin-right: 70px;
     margin-top: 30px;
+    margin-right: 70px;
+    margin-left: auto;
 }
 
 .stars {
-	text-align: right;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+
+    text-align: right;
 }
 
 .rating {
-	display: block;
-	color: #666666;
-	padding: 5px 16px;
-	background: #f2f2f2;
+    padding: 5px 16px;
+
+    color: #666;
+
+    display: block;
+
+    background: #f2f2f2;
 }
