@@ -1,7 +1,9 @@
-var requestBtn = document.querySelector('.request-btn');
-var requestForm = document.querySelector('.request-form');
-
-requestBtn.addEventListener('click', function () {
-	requestForm.classList.remove('hidden');
-});
-
+function openbox(id) {
+	display = document.getElementById(id).style.display;
+	if (display == 'none') {
+		document.getElementById(id).style.display = 'block';
+	}
+	else {
+		document.getElementById(id).style.display = 'none';
+	}
+}

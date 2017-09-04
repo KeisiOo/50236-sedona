@@ -96,8 +96,8 @@
 				<section class="request">
 					<p class="request-title">Заинтересовались?</p>
 					<p class="request-subtitle">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-					<button class="request-btn">Поиск гостиницы в седоне</button>
-					<form class="request-form hidden">
+					<button class="request-btn" onclick="openbox('request-form'); return false">Поиск гостиницы в седоне</button>
+					<form class="request-form" id="request-form">
 						<p class="request-item">
 							<label for="date-in">Дата заезда:</label>
 							<input id="date-in" type="text" name="date-in" value="24 апреля 2017">

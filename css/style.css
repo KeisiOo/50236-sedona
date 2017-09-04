@@ -270,6 +270,7 @@ main {
 }
 
 .request-form {
+	display: block;
     position: absolute;
     left: 315px;
 
@@ -410,10 +411,6 @@ label[for='child-count'] {
     color: rgba(255, 255, 255, .3);
 
     background: #5496bd;
-}
-
-.hidden {
-    display: none;
 }
 
 .map {
